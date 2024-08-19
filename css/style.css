@@ -1,0 +1,170 @@
+section{
+    padding: 50px 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24%;
+    row-gap: 500px;
+    margin-bottom: 300px;
+}
+/***** flags ******/
+.flags{
+    width: 500px;
+    position: relative;
+}
+.flags::after{
+    content: "";
+    width: 10px;
+    height: 600px;
+    background-color: #313131;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.flags::before{
+    content: "";
+    width: 100px;
+    height: 40px;
+    background-color: #313131;
+    position: absolute;
+    bottom: -300px;
+    left: -9%;
+    z-index: 2;
+}
+/****** flags ******/
+
+/* argentina flag */
+.af-first-part{
+    width: 100%;
+    height: 100px;
+    background-color: #70AFE5;
+}
+.af-second-part{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: relative;
+}
+.af-second-part img{
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.af-third-part{
+    width: 100%;
+    height: 100px;
+    background-color: #70AFE5;
+}
+/* argentina flag */
+
+/* brazil flag */
+.brazil-flag{
+    width: 100%;
+    height: 300px;
+    background-color: #0F994A;
+}
+.brazil-flag img{
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* brazil flag */
+
+/* india flag */
+
+.if-first-part{
+    width: 100%;
+    height: 100px;
+    background-color: #FF9A33;
+}
+.if-second-part{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: relative;
+}
+.if-second-part img{
+    height: 95%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.if-third-part{
+    width: 100%;
+    height: 100px;
+    background-color: #138807;
+}
+/* india flag */
+
+/* germany flag */
+.gf-first-part{
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+}
+.gf-second-part{
+    width: 100%;
+    height: 100px;
+    background-color: #DF0000;
+    position: relative;
+}
+.gf-third-part{
+    width: 100%;
+    height: 100px;
+    background-color: #FECE00;
+}
+/* germany flag */
+
+/* srilanka flag */
+.srilanka-flag{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #F1E302;
+}
+
+.cf-first-part{
+    width: 35%;
+    margin-left: 10px;
+    display: flex;
+}
+.cf-second-part{
+    width: 57%;
+    background-color: #70AFE5;
+}
+.first-part-item1{
+    width: 50%;
+    height: 100%;
+    background-color: #029F50;
+}
+.second-part-item2{
+    width: 50%;
+    height: 100%;
+    background-color: #E47A20;
+}
+/* srilanka flag */
+
+/* bangladesh flag */
+.bf-first-part{
+    width: 100%;
+    height: 300px;
+    background-color: green;
+    position: relative;
+}
+.bf-second-part{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* bangladesh flag */
